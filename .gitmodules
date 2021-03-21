@@ -1,0 +1,3 @@
+[submodule "Source/gme"]
+	path = Source/gme
+	url = https://bitbucket.org/mpyne/game-music-emu.git
