@@ -469,6 +469,7 @@
 					"$(PROJECT_DIR)/Source/gme/gme",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -487,6 +488,7 @@
 					"$(PROJECT_DIR)/Source/gme/gme",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
