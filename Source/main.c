@@ -29,6 +29,8 @@ void RPGMEPlayerDelete(RPGMEPlayerRef gmePlayer)
     {
         gme_delete(gmePlayer->emulator);
     }
+    
+    free(gmePlayer);
 }
 
 RPGMEPlayerRef RPGMEPlayerCreate(void)
